@@ -24,6 +24,8 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 1. **Projeyi Klonlayın:**
    ```bash
    git clone [https://github.com/brknfk/Hastane-Yonetim-Sistemi.git](https://github.com/brknfk/Hastane-Yonetim-Sistemi.git)
+
+   
 2. Veritabanı Kurulumu:
 
   -Proje klasöründeki SQL dosyalarını SQL Server üzerinde çalıştırarak veritabanını oluşturun.
