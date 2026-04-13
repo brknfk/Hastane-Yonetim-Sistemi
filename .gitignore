@@ -1,0 +1,8 @@
+# Hassas veri içeren dosyayı gizle
+**/App.config
+
+# Gereksiz derleme dosyaları
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
