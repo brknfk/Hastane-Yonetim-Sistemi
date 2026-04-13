@@ -1,3 +1,6 @@
+
+
+```markdown
 # 🏥 Hastane Yönetim Sistemi (Proje_Hastane)
 
 C# Windows Form ve SQL Server kullanılarak geliştirilmiş kapsamlı bir hastane yönetim otomasyonudur. Bu uygulama; hastaların randevu almasını, doktorların kendi randevularını yönetmesini ve yönetici (sekreter) işlemlerini kolaylaştırmayı amaçlar.
@@ -19,23 +22,19 @@ C# Windows Form ve SQL Server kullanılarak geliştirilmiş kapsamlı bir hastan
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
-
 1. **Projeyi Klonlayın:**
    ```bash
    git clone [https://github.com/brknfk/Hastane-Yonetim-Sistemi.git](https://github.com/brknfk/Hastane-Yonetim-Sistemi.git)
+   ```
 
-   
-2. Veritabanı Kurulumu:
+2. **Veritabanı Kurulumu:**
+   - Proje klasöründeki SQL dosyalarını SQL Server üzerinde çalıştırarak veritabanını oluşturun.
 
-  -Proje klasöründeki SQL dosyalarını SQL Server üzerinde çalıştırarak veritabanını oluşturun.
+3. **Bağlantı Ayarları:**
+   - Proje ana dizinindeki `App.config.example` dosyasının adını `App.config` olarak değiştirin.
+   - `connectionString` kısmına kendi yerel SQL Server bağlantı adresinizi yazın.
 
-3.Bağlantı Ayarları:
+4. **Derleme:**
+   - Visual Studio ile `.sln` dosyasını açın ve projeyi derleyip çalıştırın.
 
-  -Proje ana dizinindeki App.config.example dosyasının adını App.config olarak değiştirin.
 
-  -connectionString kısmına kendi yerel SQL Server bağlantı adresinizi yazın.
-  
-4.Derleme:
-
-  -Visual Studio ile .sln dosyasını açın ve projeyi derleyip çalıştırın.
